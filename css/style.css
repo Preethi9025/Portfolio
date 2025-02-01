@@ -1,0 +1,95 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(251, 232, 251);
+    color: black;
+    line-height: "1.5";
+    margin:"0";
+    padding:"0";
+} 
+header,footer{
+    background: linear-gradient(to right,#e80aad,#0c1bf1);
+}      
+hr{
+    width:50%;
+    margin:10px 5px;
+    border:2px solid #0c1bf1
+}  
+h1,h2{
+    font-weight:700 ;
+}
+p,a{
+    font-weight:500 ;
+}
+a{
+    color: darkblue;
+    text-decoration: blueviolet;
+    display: inline-block;
+    margin: 5px,0;
+}
+a:hover{
+    color: darkcyan;
+}
+.fas,.fab{
+    margin-right: 1px;
+    color: maroon;
+}
+
+/*icon link to display as large circle*/
+.icon-link{
+    display:inline-block;
+    margin:0 10px;
+    width: 60px;
+    border-radius: 50%;
+    color: #7c84fa;
+    font-size: 24px;
+    line-height:60px ;
+    text-align: center;
+}
+.email-icon{
+    background-color: #403de6;
+}
+.linkedin-icon{
+    background-color: #930ee6;
+}
+.icon-link:hover{
+    transform: scale(1.1);
+    color: bisque;
+}
+header,footer{
+    background: linear-gradient(to right,#1a06d2,#ee06fa);
+    color: antiquewhite;
+    padding: 400px 0;
+    text-align: center;
+}
+section{
+    padding: 200px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px #7793ef;
+    object-fit: cover;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    background: #1a06d2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+h2,h2{
+    color: brown;
+}
+#f1{
+    color: crimson;
+}
